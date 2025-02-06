@@ -7,11 +7,11 @@ char* welcome() {
 int main() {
     char what;
     scanf("%c",&what);
-    if(what=='a' || what=='e' || what=='i' || what=='o' || what=='u')
+    if( what=='a' || what=='e' || what=='i' |='o' || what=='u'|| what=='A' || what=='E' || what=='I' |='O' || what=='U')
     {
         printf("Vowel");
     }
-    else if (what>='a' && what<='z' )
+    else if (what>='a' && what<='z' || what>='A' && what<='Z' )
     {
         printf("Consonant");
     }
