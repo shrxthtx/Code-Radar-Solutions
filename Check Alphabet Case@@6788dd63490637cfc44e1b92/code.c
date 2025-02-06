@@ -4,17 +4,19 @@ char* welcome() {
     return "Welcome to Code Radar!";
 }
 
-int main() {
-   char '+';
-   scanf("%c",&+);
-    if (A<='+' && '+'<=Z)
+int main()
+{
+    char ch;
+    scanf("%c",&ch);
+    if(ch<='A' && ch>='Z')
     {
         printf("Uppercase");
     }
-    else
+    else if(ch<='a' && ch>='z')
     {
         printf("Lowercase");
     }
 
+    
 
 }
