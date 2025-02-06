@@ -7,7 +7,7 @@ char* welcome() {
 int main() {
     char what;
     scanf("%c",&what);
-    if( what=='a' || what=='e' || what=='i' |='o' || what=='u'|| what=='A' || what=='E' || what=='I' |='O' || what=='U')
+    if( what=='a' || what=='e' || what=='i' |='o' || what=='u'|| what=='A' || what=='E' || what=='I' ||what=='O' || what=='U')
     {
         printf("Vowel");
     }
