@@ -15,7 +15,7 @@ int main() {
     {
         printf("Consonant");
     }
-    else if(what>=0 && what<=9)
+    else if(what>='0' && what<='9')
     {
         printf("Digit");
     }
