@@ -13,7 +13,7 @@ int main() {
     }
     else if (what<='a' && what<='z' )
     {
-        printf("consonant");
+        printf("Consonant");
     }
     else if(isdigit(what))
     {
