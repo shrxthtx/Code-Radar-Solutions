@@ -3,8 +3,9 @@
 
 
 int main() {
-    float r,area;
+    float r;
+    int area;
     scanf("%f",&r);
     area=3.14*r*r;
-    printf("%f",area);
+    printf("%d",area);
 }
